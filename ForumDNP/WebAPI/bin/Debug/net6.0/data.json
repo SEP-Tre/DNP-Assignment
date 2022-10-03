@@ -1,0 +1,43 @@
+{
+  "Users": [
+    {
+      "Id": 1,
+      "UserName": "Kamilos",
+      "Password": "hahaYoutoo"
+    },
+    {
+      "Id": 2,
+      "UserName": "Kamilosonos",
+      "Password": "kakaYouToo"
+    },
+    {
+      "Id": 3,
+      "UserName": "Kamilono",
+      "Password": "hihiYouToo"
+    }
+  ],
+  "Posts": [
+    {
+      "Id": 1,
+      "Owner": {
+        "Id": 1,
+        "UserName": "Kamilos",
+        "Password": "hahaYoutoo"
+      },
+      "Title": "Why are most of the people so filthy?",
+      "Body": "Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy Filthy",
+      "DateTime": "0001-01-01T00:00:00"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 3,
+        "UserName": "Kamilono",
+        "Password": "hihiYouToo"
+      },
+      "Title": "Life is great!",
+      "Body": "Life is great! Life is great! Life is great! Life is great! Life is great! Life is great! Life is great! Life is great! Life is great!",
+      "DateTime": "0001-01-01T00:00:00"
+    }
+  ]
+}
