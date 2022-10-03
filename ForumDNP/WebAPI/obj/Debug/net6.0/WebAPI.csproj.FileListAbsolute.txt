@@ -31,3 +31,4 @@ C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\WebAPI\obj\Debug\net6.0\
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\WebAPI\bin\Debug\net6.0\data.json

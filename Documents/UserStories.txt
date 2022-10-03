@@ -1,1 +1,4 @@
 1. As a user I want to create an account, so that I can upload posts.
+2. As a user I want to create a post, so that I can share my thoughts.//CreateAsync(PostCreationDto dto)
+3. As a user I want to see post titles, so that I can choose what to read. // GetAllTitlesAsync()
+4. As a user I want to see the whole post, so that I can read it. // GetByTitleAsync(string title)
