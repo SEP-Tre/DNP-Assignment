@@ -38,6 +38,17 @@
       "Title": "Life is great!",
       "Body": "Life is great! Life is great! Life is great! Life is great! Life is great! Life is great! Life is great! Life is great! Life is great!",
       "DateTime": "0001-01-01T00:00:00"
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Kamilosonos",
+        "Password": "kakaYouToo"
+      },
+      "Title": "I am feeling down.",
+      "Body": "I wanna kill myself. Concerning, huh? No. Everyone says so, therefore it lost its power. Change my mind.",
+      "DateTime": "2022-10-03T17:33:46.7150677+02:00"
     }
   ]
 }

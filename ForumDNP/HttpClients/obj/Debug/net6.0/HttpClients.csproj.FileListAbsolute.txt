@@ -1,0 +1,15 @@
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\bin\Debug\net6.0\HttpClients.deps.json
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\bin\Debug\net6.0\HttpClients.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\bin\Debug\net6.0\HttpClients.pdb
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\bin\Debug\net6.0\Shared.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\bin\Debug\net6.0\Shared.pdb
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.csproj.AssemblyReference.cache
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfoInputs.cache
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.AssemblyInfo.cs
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CoreCompileInputs.cache
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.csproj.CopyComplete
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\refint\HttpClients.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\HttpClients.pdb
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\HttpClients\obj\Debug\net6.0\ref\HttpClients.dll
