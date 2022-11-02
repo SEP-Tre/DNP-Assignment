@@ -830,3 +830,4 @@ C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\BlazorWASM.pdb
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\ref\BlazorWASM.dll
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\CreatePost.razor.rz.scp.css
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\ViewTitles.razor.rz.scp.css

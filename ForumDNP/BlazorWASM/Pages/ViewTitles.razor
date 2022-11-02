@@ -1,0 +1,44 @@
+﻿@page "/ViewTitles"
+@using HttpClients.ClientInterfaces
+@inject IPostService postService
+<div class="card overflow-auto">
+    @foreach (string title in titles)
+    {
+        <div class="card-title d-flex justify-content-between">
+            <label @onclick="() => selectedTitle = title">@title</label>
+            <button class="btn btn-info btn-sm" @onclick="readPost">Read</button>
+        </div>
+    }
+    @if (!string.IsNullOrEmpty(resultMsg))
+    {
+        <label style="color: @color">@resultMsg</label>
+    }
+</div>
+
+@code {
+    private List<string> titles;
+    private string selectedTitle;
+    private string resultMsg;
+    private string color = "red";
+
+    protected override async Task OnInitializedAsync()
+    {
+        resultMsg = "";
+        try
+        {
+            titles = new List<string>();
+            ICollection<string> retrievedTitles = await postService.GetTitlesAsync();
+            titles.AddRange(retrievedTitles);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+        }
+    }
+
+    private void readPost()
+    {
+    }
+
+}

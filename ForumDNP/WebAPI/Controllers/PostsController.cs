@@ -48,7 +48,7 @@ public class PostsController: ControllerBase
     
     [HttpGet]
     [Route("/titles")]
-    public async Task<ActionResult<Post>> GetAllByTitleAsync()
+    public async Task<ActionResult<IEnumerable<string>>> GetAllByTitleAsync()
     {
         try
         {

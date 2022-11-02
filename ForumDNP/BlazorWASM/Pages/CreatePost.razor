@@ -22,7 +22,7 @@
 </div>
 
 @code {
-    private string username = "";
+    private string username = "Kamilos";//Todo change later
     private string title = "";
     private string body = "";
     private string resultMsg = "";
@@ -35,9 +35,10 @@
         try
         {
             await postService.CreateAsync(new PostCreationDto(title, body, username));
-            username = "";
             resultMsg = "Post successfully created.";
             color = "green";
+            title = "";
+            body = "";
         }
         catch (Exception e)
         {
