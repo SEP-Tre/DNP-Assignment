@@ -1,0 +1,44 @@
+﻿@page "/ViewPost/{title}"
+@using global::Shared
+@using HttpClients.ClientInterfaces
+@inject IPostService postService;
+
+<div class="card">
+    <div class="card-title d-flex justify-content-between">
+        <h4>@Title</h4>
+        <div>
+            <label>Username: @username</label>
+        </div>
+    </div>
+    <div class="body">
+         @body
+    </div>
+</div>
+
+@code {
+
+    [Parameter]
+    public string Title { get; set; }
+
+    //private string title = "Why are most of the people so filthy?";
+    private string body="";
+    private string username="";
+    private string msg;
+
+    protected override async Task OnInitializedAsync()
+    {
+        msg = "";
+        try
+        {
+            Post post = await postService.GetByTitleAsync(Title);
+            body = post.Body;
+            username = post.Owner.UserName;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            msg = "";
+        }
+    }
+
+}

@@ -2,6 +2,7 @@
 @using HttpClients.ClientInterfaces
 @using global::Shared.DTOs
 @inject IPostService postService;
+<div class="card-beauty">
 <div class="card">
     <h3>Create post</h3>
     <div class="form-group field">
@@ -19,6 +20,7 @@
     <div class="button-row">
         <button @onclick="CreateAsync" disabled="@(string.IsNullOrEmpty(title))" class="acceptbtn">Create</button>
     </div>
+</div>
 </div>
 
 @code {

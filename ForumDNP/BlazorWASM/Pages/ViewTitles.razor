@@ -1,12 +1,14 @@
 ﻿@page "/ViewTitles"
 @using HttpClients.ClientInterfaces
 @inject IPostService postService
+@inject NavigationManager navMgr
 <div class="card overflow-auto">
+    <div> <h3 class="text-white">Posts</h3></div>
     @foreach (string title in titles)
     {
         <div class="card-title d-flex justify-content-between">
-            <label @onclick="() => selectedTitle = title">@title</label>
-            <button class="btn btn-info btn-sm" @onclick="readPost">Read</button>
+            <label>@title</label>
+            <button class="btn btn-info btn-sm" @onmousedown="() => selectedTitle = title" @onclick="ReadPost">Read</button>
         </div>
     }
     @if (!string.IsNullOrEmpty(resultMsg))
@@ -37,8 +39,25 @@
         }
     }
 
-    private void readPost()
+    private void ReadPost()
     {
+        try
+        {
+            if (!string.IsNullOrEmpty(selectedTitle))
+            {
+                resultMsg = selectedTitle;
+                navMgr.NavigateTo($"/ViewPost/{selectedTitle}");
+            }
+            else
+            {
+                resultMsg = "You have to select a title first.";
+            }
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            resultMsg = e.Message;
+        }
     }
 
 }
