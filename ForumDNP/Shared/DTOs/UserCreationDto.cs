@@ -2,8 +2,8 @@
 
 public class UserCreationDto
 {
-    public string UserName { get;}
-    public string Password { get; }
+    public string UserName { get; set; }
+    public string Password { get; set; }
 
     public UserCreationDto(string userName, string password)
     {

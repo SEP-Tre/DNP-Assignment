@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "lz7/3XcprfWvsrqt63tdpDfV3hRSPgK0N+sK922VyLC0X+r1RMgcq+jXOl98kDFl+qhEErjpdAi3DK3qzySZ4Q==",
+  "dgSpecHash": "8ss4tpr3kyVY7e44S+dZHP1LBk2WJww/F7je0f+CBWLduAbP0auJ4p1W+iEsw8cbfo2eYQ1s5E/+sz7dpzr/kw==",
   "success": true,
   "projectFilePath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\Shared\\Shared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\microsoft.aspnetcore.authorization.6.0.10.nupkg.sha512",
+    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\microsoft.aspnetcore.metadata.6.0.10.nupkg.sha512",
+    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\fisch\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

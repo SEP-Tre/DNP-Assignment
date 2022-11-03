@@ -23,17 +23,24 @@ public class UserLogic : IUserLogic
             throw new Exception("Such user already exists.");
         }
         ValidateData(userToCreate);
-        User newUser = new User()
-        {
-            UserName = userToCreate.UserName,
-            Password = userToCreate.Password
-        };
+        User newUser = new User(userToCreate);
+        
 
         User created = await userDao.CreateAsync(newUser);
 
         return created;
     }
-    
+
+    public async Task LoginAsync(UserCreationDto dto)
+    {
+        User? exsisting = await userDao.GetByUsernameAsync(dto.UserName);
+
+        if (exsisting == null)
+        {
+            throw new Exception("Such user already exists.");
+        }
+    }
+
 
     private static void ValidateData(UserCreationDto dto)
     {
