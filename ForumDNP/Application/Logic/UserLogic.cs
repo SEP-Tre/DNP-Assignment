@@ -34,11 +34,11 @@ public class UserLogic : IUserLogic
     public async Task LoginAsync(UserCreationDto dto)
     {
         User? exsisting = await userDao.GetByUsernameAsync(dto.UserName);
-
         if (exsisting == null)
         {
-            throw new Exception("Such user already exists.");
+            throw new Exception("Such user doesn't exist");
         }
+        Console.Write($"{exsisting.UserName} : {exsisting.Password}");
     }
 
 

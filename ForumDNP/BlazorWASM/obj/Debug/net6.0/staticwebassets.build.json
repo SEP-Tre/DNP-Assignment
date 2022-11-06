@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EcUROQenzbuxKnhmKSSs+f9MVBluw9ixe/8emMTg+AU=",
+  "Hash": "OzcaeUcZTJI2rGvAxFBoAG/Od4KSHesncauPM5eHiZY=",
   "Source": "BlazorWASM",
   "BasePath": "/",
   "Mode": "Root",
@@ -252,7 +252,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -269,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -337,7 +354,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -541,7 +558,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\fisch\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -3808,23 +3825,6 @@
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.WebClient.dll"
     },
     {
-      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\4Mo9ckyk.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\4nIY86sf.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -3891,23 +3891,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Shared.dll"
-    },
-    {
-      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\57Wojbv9.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\59PRRfVH.gz",
@@ -4318,6 +4301,23 @@
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
+      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\bLkSEAJW.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\bngTfMUV.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -4367,6 +4367,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Net.Security.dll"
+    },
+    {
+      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\c3ifMoAY.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\CA3VLhWN.gz",
@@ -4571,6 +4588,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.dll"
+    },
+    {
+      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\eLImTjnZ.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\etr1qwur.gz",
@@ -5268,6 +5302,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.dll"
+    },
+    {
+      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\Llp7X8cb.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\LTOzVBc6.gz",
@@ -6222,23 +6273,6 @@
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Debug.dll"
     },
     {
-      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\tM1Zq9SR.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\tQSUkF7J.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -6562,23 +6596,6 @@
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.OpenSsl.dll"
     },
     {
-      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\wnJ089dq.gz",
-      "SourceId": "BlazorWASM",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\wr+OnCi8.gz",
       "SourceId": "BlazorWASM",
       "SourceType": "Computed",
@@ -6696,6 +6713,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Parallel.dll"
+    },
+    {
+      "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\xTTuzjg7.gz",
+      "SourceId": "BlazorWASM",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\BlazorWASM\\obj\\Debug\\net6.0\\build-gz\\xZLogCch.gz",

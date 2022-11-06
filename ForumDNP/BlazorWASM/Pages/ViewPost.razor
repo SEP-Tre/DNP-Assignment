@@ -3,18 +3,19 @@
 @using HttpClients.ClientInterfaces
 @inject IPostService postService;
 
-<div class="card">
-    <div class="card-title d-flex justify-content-between">
-        <h4>@Title</h4>
-        <div>
-            <label>Username: @username</label>
+
+    <div class="card">
+        <div class="card-title d-flex justify-content-between">
+            <h6>@Title</h6>
+            <div>
+                <label class="text-sm">Username: @username</label>
+            </div>
+        </div>
+        <div class="body">
+            @body
         </div>
     </div>
-    <div class="body">
-         @body
-    </div>
-</div>
-
+  
 @code {
 
     [Parameter]

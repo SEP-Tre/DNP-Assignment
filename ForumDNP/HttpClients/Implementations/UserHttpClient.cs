@@ -14,6 +14,10 @@ public class UserHttpClient : IUserService
     // this private variable for simple caching
     public static string? Jwt { get; private set; } = "";
 
+    public UserHttpClient(HttpClient client)
+    {
+        this.client = client;
+    }
     public Action<ClaimsPrincipal> OnAuthStateChanged { get; set; } = null!;
     
     public async Task LoginAsync(UserCreationDto dto)
@@ -23,6 +27,7 @@ public class UserHttpClient : IUserService
 
         if (!response.IsSuccessStatusCode)
         {
+            Console.WriteLine(responseContent);
             throw new Exception(responseContent);
         }
 
@@ -43,11 +48,14 @@ public class UserHttpClient : IUserService
         {
             throw new Exception(responseContent);
         }
+
+        await LoginAsync(dto);
     }
 
     public Task<ClaimsPrincipal> GetAuthAsync()
     {
-        throw new NotImplementedException();
+        ClaimsPrincipal principal = CreateClaimsPrincipal();
+        return Task.FromResult(principal);
     }
     
     //some mambo jumbo

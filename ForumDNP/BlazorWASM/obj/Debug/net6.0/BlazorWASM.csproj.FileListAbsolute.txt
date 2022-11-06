@@ -614,12 +614,9 @@ C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net6.0\Shared.dll
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net6.0\HttpClients.pdb
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net6.0\Shared.pdb
-C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\4Mo9ckyk.gz
-C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\tM1Zq9SR.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\BQni5HVt.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\bGBKN2TF.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\SvgPuwvt.gz
-C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\57Wojbv9.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\OOq63H0m.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\1O2ELO8S.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\0jwzS8Y0.gz
@@ -631,7 +628,6 @@ C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\klXHsjTL.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\lLBivdoq.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\JG+jMnUG.gz
-C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\wnJ089dq.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\ZRrZJzVA.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\w9AUHurE.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\rKCSnJDu.gz
@@ -832,3 +828,13 @@ C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\CreatePost.razor.rz.scp.css
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\ViewTitles.razor.rz.scp.css
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\ViewPost.razor.rz.scp.css
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\c3ifMoAY.gz
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\xTTuzjg7.gz
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\eLImTjnZ.gz
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\Llp7X8cb.gz
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\bLkSEAJW.gz
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\LoginRegister.razor.rz.scp.css
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\UIComponents\Modal.razor.rz.scp.css

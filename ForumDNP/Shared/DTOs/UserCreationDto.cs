@@ -10,4 +10,9 @@ public class UserCreationDto
         UserName = userName;
         Password = password;
     }
+
+    public UserCreationDto()
+    {
+        
+    }
 }
