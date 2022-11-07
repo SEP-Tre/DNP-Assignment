@@ -1,0 +1,34 @@
+﻿@page "/Logout"
+@using HttpClients.ClientInterfaces
+@inject IUserService userService
+@inject NavigationManager navMgr
+<AuthorizeView>
+    <Authorized>
+        <div class="card d-flex justify-content-between"> 
+            <label class="text-white my-2">Press the button in order to log out.</label>
+            <btn class="btn btn-sm btn-warning my-2" @onclick="LogoutAsync" >Log out</btn>
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        <div class="card d-flex justify-content-between">
+                    <label class="text-white">You are not logged in.</label>
+        </div>
+    </NotAuthorized>
+</AuthorizeView>
+
+@code {
+
+    private async Task LogoutAsync()
+    {
+        try
+        {
+            await userService.LogoutAsync();
+            navMgr.NavigateTo("/");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+}

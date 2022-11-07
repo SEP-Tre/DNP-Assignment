@@ -39,6 +39,14 @@ public class UserHttpClient : IUserService
         OnAuthStateChanged.Invoke(principal);
     }
 
+    public Task LogoutAsync()
+    {
+        Jwt = null;
+        ClaimsPrincipal principal = new();
+        OnAuthStateChanged.Invoke(principal);
+        return Task.CompletedTask;
+    }
+
     public async Task CreateAsync(UserCreationDto dto)
     {
         HttpResponseMessage response = await client.PostAsJsonAsync("/Users", dto );

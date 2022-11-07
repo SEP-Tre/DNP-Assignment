@@ -838,3 +838,4 @@ C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\build-gz\bLkSEAJW.gz
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\LoginRegister.razor.rz.scp.css
 C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\UIComponents\Modal.razor.rz.scp.css
+C:\Users\fisch\Documents\GitHub\DNP-Assignment\ForumDNP\BlazorWASM\obj\Debug\net6.0\scopedcss\Pages\Logout.razor.rz.scp.css
