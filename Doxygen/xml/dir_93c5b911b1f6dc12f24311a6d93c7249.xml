@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_93c5b911b1f6dc12f24311a6d93c7249" kind="dir">
+    <compoundname>C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI</compoundname>
+    <innerdir refid="dir_c0e3f36cf00627290e5735ba40079798">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers</innerdir>
+    <innerdir refid="dir_62aa356ff91e27a0ade19db28bdea275">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/obj</innerdir>
+    <innerfile refid="_web_a_p_i_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/"/>
+  </compounddef>
+</doxygen>

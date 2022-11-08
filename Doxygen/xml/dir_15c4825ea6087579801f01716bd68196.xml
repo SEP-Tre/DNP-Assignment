@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_15c4825ea6087579801f01716bd68196" kind="dir">
+    <compoundname>C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP</compoundname>
+    <innerdir refid="dir_1252dcece65b95920e94e30714805ff7">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application</innerdir>
+    <innerdir refid="dir_dfddfb6e43fa356978d8733180d9e223">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/BlazorWASM</innerdir>
+    <innerdir refid="dir_9a430bde79f079ac3ba457e1546f2f0f">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData</innerdir>
+    <innerdir refid="dir_4b9850ce7103b398facf566ea2d7025a">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients</innerdir>
+    <innerdir refid="dir_ffd85ec29083e95f618cea3998c59b0b">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared</innerdir>
+    <innerdir refid="dir_93c5b911b1f6dc12f24311a6d93c7249">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/"/>
+  </compounddef>
+</doxygen>

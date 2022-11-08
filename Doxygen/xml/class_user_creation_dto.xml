@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_user_creation_dto" kind="class" language="C#" prot="public">
+    <compoundname>UserCreationDto</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_user_creation_dto_1a2d7af2816be0a97300114bc66b6ee5f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string UserCreationDto.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <qualifiedname>UserCreationDto.UserName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" line="5" column="19" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" bodystart="5" bodyend="5"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_creation_dto_1a3d32dc7cf2e504d05cd31551f94c8259" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string UserCreationDto.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <qualifiedname>UserCreationDto.Password</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" line="6" column="19" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" bodystart="6" bodyend="6"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_user_creation_dto_1a2536d403336e296b81be908bbe0f0049" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UserCreationDto.UserCreationDto</definition>
+        <argsstring>(string userName, string password)</argsstring>
+        <name>UserCreationDto</name>
+        <qualifiedname>UserCreationDto.UserCreationDto</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>userName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" line="8" column="12" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_creation_dto_1ae825231ea6cb4dd8d36a660b989e8a64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UserCreationDto.UserCreationDto</definition>
+        <argsstring>()</argsstring>
+        <name>UserCreationDto</name>
+        <qualifiedname>UserCreationDto.UserCreationDto</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" line="14" column="12" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" line="3" column="7" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/DTOs/UserCreationDto.cs" bodystart="4" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_user_creation_dto_1a3d32dc7cf2e504d05cd31551f94c8259" prot="public" virt="non-virtual"><scope>UserCreationDto</scope><name>Password</name></member>
+      <member refid="class_user_creation_dto_1a2536d403336e296b81be908bbe0f0049" prot="public" virt="non-virtual"><scope>UserCreationDto</scope><name>UserCreationDto</name></member>
+      <member refid="class_user_creation_dto_1ae825231ea6cb4dd8d36a660b989e8a64" prot="public" virt="non-virtual"><scope>UserCreationDto</scope><name>UserCreationDto</name></member>
+      <member refid="class_user_creation_dto_1a2d7af2816be0a97300114bc66b6ee5f2" prot="public" virt="non-virtual"><scope>UserCreationDto</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

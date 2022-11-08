@@ -1,6 +1,7 @@
 ﻿@page "/CreatePost"
 @using HttpClients.ClientInterfaces
 @using global::Shared.DTOs
+@using System.Security.Claims
 @inject IPostService postService;
 
 <AuthorizeView>
@@ -21,7 +22,7 @@
                     }
                 </div>
                 <div class="button-row">
-                    <button @onclick="CreateAsync" disabled="@(string.IsNullOrEmpty(title))" class="acceptbtn">Create</button>
+                    <button @onclick="CreateAsync" @onmousedown=@(() =>SetUsername(@context.User.Identity!.Name)) disabled="@(string.IsNullOrEmpty(title))" class="acceptbtn">Create</button>
                 </div>
             </div>
         </div>
@@ -39,6 +40,7 @@
     private string resultMsg = "";
     private string color = "";
     
+
     private async Task CreateAsync()
     {
         resultMsg = "";
@@ -57,5 +59,10 @@
             resultMsg = e.Message;
             color = "red";
         }
+    }
+
+    private void SetUsername(string? username)
+    {
+        this.username = username!;
     }
 }

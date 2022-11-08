@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_i_user_logic" kind="interface" language="C#" prot="public">
+    <compoundname>IUserLogic</compoundname>
+    <derivedcompoundref refid="class_user_logic" prot="public" virt="non-virtual">UserLogic</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_user_logic_1acb243f1b151305b1e4b800f95cd596c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>Task&lt; User &gt; IUserLogic.CreateAsync</definition>
+        <argsstring>(UserCreationDto userToCreate)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>IUserLogic.CreateAsync</qualifiedname>
+        <reimplementedby refid="class_user_logic_1aa6dd21e8e4a8ebb1b972fb2f8e6024ae">CreateAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>userToCreate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IUserLogic.cs" line="8" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_user_logic_1ac2a1a5d63c1f6014e17b084e037cfb00" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task IUserLogic.LoginAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>LoginAsync</name>
+        <qualifiedname>IUserLogic.LoginAsync</qualifiedname>
+        <reimplementedby refid="class_user_logic_1afd4d5d2ebb0562d5f04086e050b2286b">LoginAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IUserLogic.cs" line="9" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IUserLogic</label>
+        <link refid="interface_i_user_logic"/>
+      </node>
+      <node id="2">
+        <label>UserLogic</label>
+        <link refid="class_user_logic"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IUserLogic.cs" line="6" column="18" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IUserLogic.cs" bodystart="7" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_i_user_logic_1acb243f1b151305b1e4b800f95cd596c7" prot="public" virt="non-virtual"><scope>IUserLogic</scope><name>CreateAsync</name></member>
+      <member refid="interface_i_user_logic_1ac2a1a5d63c1f6014e17b084e037cfb00" prot="public" virt="non-virtual"><scope>IUserLogic</scope><name>LoginAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_shared_1_1_d_t_os" kind="namespace" language="C#">
+    <compoundname>Shared::DTOs</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/Logic/PostLogic.cs" line="4" column="18"/>
+  </compounddef>
+</doxygen>

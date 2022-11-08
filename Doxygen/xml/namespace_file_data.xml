@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="namespace_file_data" kind="namespace" language="C#">
+    <compoundname>FileData</compoundname>
+    <innerclass refid="class_file_data_1_1_data_container" prot="public">FileData::DataContainer</innerclass>
+    <innerclass refid="class_file_data_1_1_file_context" prot="public">FileData::FileContext</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DataContainer.cs" line="3" column="1"/>
+  </compounddef>
+</doxygen>

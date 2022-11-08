@@ -1,0 +1,104 @@
+\hypertarget{class_user_http_client}{}\doxysection{User\+Http\+Client Class Reference}
+\label{class_user_http_client}\index{UserHttpClient@{UserHttpClient}}
+Inheritance diagram for User\+Http\+Client\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_user_http_client}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_user_http_client_afc094c09300a35e083727770a53dfc9f}{User\+Http\+Client}} (Http\+Client client)
+\item 
+async Task \mbox{\hyperlink{class_user_http_client_a81ebd2482603f7720df12de26ab25b2e}{Login\+Async}} (\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}} dto)
+\item 
+Task \mbox{\hyperlink{class_user_http_client_a70545f5857e7551cc893338fa291e404}{Logout\+Async}} ()
+\item 
+async Task \mbox{\hyperlink{class_user_http_client_a0c43641e856296078cda50be2e34a364}{Create\+Async}} (\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}} dto)
+\item 
+Task$<$ Claims\+Principal $>$ \mbox{\hyperlink{class_user_http_client_aef77edbad40f225cea7adfcc0c60a2ad}{Get\+Auth\+Async}} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static ? string \mbox{\hyperlink{class_user_http_client_a37e2aedbb9dcda57893c4ec71f3cadb1}{Jwt}} = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+Action$<$ Claims\+Principal $>$ \mbox{\hyperlink{class_user_http_client_a07aaf179aa80cfda1403d308f959a266}{On\+Auth\+State\+Changed}} = null!\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_user_http_client_afc094c09300a35e083727770a53dfc9f}\label{class_user_http_client_afc094c09300a35e083727770a53dfc9f}} 
+\index{UserHttpClient@{UserHttpClient}!UserHttpClient@{UserHttpClient}}
+\index{UserHttpClient@{UserHttpClient}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{UserHttpClient()}{UserHttpClient()}}
+{\footnotesize\ttfamily User\+Http\+Client.\+User\+Http\+Client (\begin{DoxyParamCaption}\item[{Http\+Client}]{client }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_user_http_client_a0c43641e856296078cda50be2e34a364}\label{class_user_http_client_a0c43641e856296078cda50be2e34a364}} 
+\index{UserHttpClient@{UserHttpClient}!CreateAsync@{CreateAsync}}
+\index{CreateAsync@{CreateAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{CreateAsync()}{CreateAsync()}}
+{\footnotesize\ttfamily async Task User\+Http\+Client.\+Create\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service_add05308a2c3a343a7599cc4046d97afe}{IUser\+Service}}.
+
+\mbox{\Hypertarget{class_user_http_client_aef77edbad40f225cea7adfcc0c60a2ad}\label{class_user_http_client_aef77edbad40f225cea7adfcc0c60a2ad}} 
+\index{UserHttpClient@{UserHttpClient}!GetAuthAsync@{GetAuthAsync}}
+\index{GetAuthAsync@{GetAuthAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{GetAuthAsync()}{GetAuthAsync()}}
+{\footnotesize\ttfamily Task$<$ Claims\+Principal $>$ User\+Http\+Client.\+Get\+Auth\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service_a7d226b916fb6a48e2315211fa00bd5ce}{IUser\+Service}}.
+
+\mbox{\Hypertarget{class_user_http_client_a81ebd2482603f7720df12de26ab25b2e}\label{class_user_http_client_a81ebd2482603f7720df12de26ab25b2e}} 
+\index{UserHttpClient@{UserHttpClient}!LoginAsync@{LoginAsync}}
+\index{LoginAsync@{LoginAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{LoginAsync()}{LoginAsync()}}
+{\footnotesize\ttfamily async Task User\+Http\+Client.\+Login\+Async (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_user_creation_dto}{User\+Creation\+Dto}}}]{dto }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service_a357f2d8740763c458f6726c320ca3995}{IUser\+Service}}.
+
+\mbox{\Hypertarget{class_user_http_client_a70545f5857e7551cc893338fa291e404}\label{class_user_http_client_a70545f5857e7551cc893338fa291e404}} 
+\index{UserHttpClient@{UserHttpClient}!LogoutAsync@{LogoutAsync}}
+\index{LogoutAsync@{LogoutAsync}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{LogoutAsync()}{LogoutAsync()}}
+{\footnotesize\ttfamily Task User\+Http\+Client.\+Logout\+Async (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service_a2c92a19baa02fc631b49b47bbab0e511}{IUser\+Service}}.
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_user_http_client_a37e2aedbb9dcda57893c4ec71f3cadb1}\label{class_user_http_client_a37e2aedbb9dcda57893c4ec71f3cadb1}} 
+\index{UserHttpClient@{UserHttpClient}!Jwt@{Jwt}}
+\index{Jwt@{Jwt}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{Jwt}{Jwt}}
+{\footnotesize\ttfamily ? string User\+Http\+Client.\+Jwt = \char`\"{}\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_user_http_client_a07aaf179aa80cfda1403d308f959a266}\label{class_user_http_client_a07aaf179aa80cfda1403d308f959a266}} 
+\index{UserHttpClient@{UserHttpClient}!OnAuthStateChanged@{OnAuthStateChanged}}
+\index{OnAuthStateChanged@{OnAuthStateChanged}!UserHttpClient@{UserHttpClient}}
+\doxysubsubsection{\texorpdfstring{OnAuthStateChanged}{OnAuthStateChanged}}
+{\footnotesize\ttfamily Action$<$Claims\+Principal$>$ User\+Http\+Client.\+On\+Auth\+State\+Changed = null!\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Implements \mbox{\hyperlink{interface_i_user_service_ae17e404d67b487e69aee3885cdddb19e}{IUser\+Service}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/fisch/\+Documents/\+Git\+Hub/\+DNP-\/\+Assignment/\+Forum\+DNP/\+Http\+Clients/\+Implementations/\mbox{\hyperlink{_user_http_client_8cs}{User\+Http\+Client.\+cs}}\end{DoxyCompactItemize}

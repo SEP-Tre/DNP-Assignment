@@ -1,0 +1,132 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_post_file_dao" kind="class" language="C#" prot="public">
+    <compoundname>PostFileDao</compoundname>
+    <basecompoundref refid="interface_i_post_dao" prot="public" virt="non-virtual">IPostDao</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_post_file_dao_1a6e2891618def73739892cd1cb190d5ef" prot="private" static="no" mutable="no">
+        <type>readonly FileContext</type>
+        <definition>readonly FileContext PostFileDao.context</definition>
+        <argsstring></argsstring>
+        <name>context</name>
+        <qualifiedname>PostFileDao.context</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" line="9" column="34" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_post_file_dao_1a10018905762258532d5c3ff5376df2fe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PostFileDao.PostFileDao</definition>
+        <argsstring>(FileContext context)</argsstring>
+        <name>PostFileDao</name>
+        <qualifiedname>PostFileDao.PostFileDao</qualifiedname>
+        <param>
+          <type>FileContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" line="11" column="12" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_file_dao_1a9f451c357b4f5cc7205f39159be99481" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; PostFileDao.CreateAsync</definition>
+        <argsstring>(Post post)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>PostFileDao.CreateAsync</qualifiedname>
+        <reimplements refid="interface_i_post_dao_1a8b8b8c2f82f2ad174afccffdbfa8c212">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_shared_1_1_post" kindref="compound">Post</ref></type>
+          <declname>post</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" line="16" column="17" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" bodystart="16" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_file_dao_1a403e32983735970a18deca652a3b73d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref>?&gt;</type>
+        <definition>Task&lt; Post?&gt; PostFileDao.GetByTitleAsync</definition>
+        <argsstring>(string title)</argsstring>
+        <name>GetByTitleAsync</name>
+        <qualifiedname>PostFileDao.GetByTitleAsync</qualifiedname>
+        <reimplements refid="interface_i_post_dao_1ac05b4348570a59064b223dc54f0d61b7">GetByTitleAsync</reimplements>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" line="34" column="17" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" bodystart="34" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_post_file_dao_1a5caf04aceb7939912fcfeb6991574f87" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; string &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; string &gt; &gt; PostFileDao.GetAllByTitleAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllByTitleAsync</name>
+        <qualifiedname>PostFileDao.GetAllByTitleAsync</qualifiedname>
+        <reimplements refid="interface_i_post_dao_1a70976d874295dc5c6076ac818fa59c6d">GetAllByTitleAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" line="41" column="17" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" bodystart="41" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IPostDao</label>
+        <link refid="interface_i_post_dao"/>
+      </node>
+      <node id="1">
+        <label>PostFileDao</label>
+        <link refid="class_post_file_dao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IPostDao</label>
+        <link refid="interface_i_post_dao"/>
+      </node>
+      <node id="1">
+        <label>PostFileDao</label>
+        <link refid="class_post_file_dao"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" line="7" column="7" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/DAOs/PostFileDao.cs" bodystart="8" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_post_file_dao_1a6e2891618def73739892cd1cb190d5ef" prot="private" virt="non-virtual"><scope>PostFileDao</scope><name>context</name></member>
+      <member refid="class_post_file_dao_1a9f451c357b4f5cc7205f39159be99481" prot="public" virt="non-virtual"><scope>PostFileDao</scope><name>CreateAsync</name></member>
+      <member refid="class_post_file_dao_1a5caf04aceb7939912fcfeb6991574f87" prot="public" virt="non-virtual"><scope>PostFileDao</scope><name>GetAllByTitleAsync</name></member>
+      <member refid="class_post_file_dao_1a403e32983735970a18deca652a3b73d1" prot="public" virt="non-virtual"><scope>PostFileDao</scope><name>GetByTitleAsync</name></member>
+      <member refid="class_post_file_dao_1a10018905762258532d5c3ff5376df2fe" prot="public" virt="non-virtual"><scope>PostFileDao</scope><name>PostFileDao</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

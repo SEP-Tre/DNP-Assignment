@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_dfddfb6e43fa356978d8733180d9e223" kind="dir">
+    <compoundname>C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/BlazorWASM</compoundname>
+    <innerdir refid="dir_5446ac4b2281b9e5d530b85afc424d0f">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/BlazorWASM/Auth</innerdir>
+    <innerdir refid="dir_febc499c10b8cf387b744f15729fc8f2">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/BlazorWASM/obj</innerdir>
+    <innerdir refid="dir_57b2163ee9f3d797b7fb3195e010dc8d">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/BlazorWASM/wwwroot</innerdir>
+    <innerfile refid="_blazor_w_a_s_m_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/BlazorWASM/"/>
+  </compounddef>
+</doxygen>

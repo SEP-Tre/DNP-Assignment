@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_1252dcece65b95920e94e30714805ff7" kind="dir">
+    <compoundname>C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application</compoundname>
+    <innerdir refid="dir_5f2f3854a1d0bfdd64b7167f42ce33c3">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/DaoInterfaces</innerdir>
+    <innerdir refid="dir_9d00628a0428c1431a8f694dbecd79b1">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/Logic</innerdir>
+    <innerdir refid="dir_3346605d25de5edbe01ed10fe2ccb39b">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces</innerdir>
+    <innerdir refid="dir_21cafeb7e58500902c36097cb5f840be">C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/obj</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/"/>
+  </compounddef>
+</doxygen>

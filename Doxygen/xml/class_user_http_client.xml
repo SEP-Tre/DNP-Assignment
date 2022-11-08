@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_user_http_client" kind="class" language="C#" prot="public">
+    <compoundname>UserHttpClient</compoundname>
+    <basecompoundref refid="interface_i_user_service" prot="public" virt="non-virtual">IUserService</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_user_http_client_1a6b8c9c17e5c51b84e5c7c97e5833e9d0" prot="private" static="no" mutable="no">
+        <type>readonly HttpClient</type>
+        <definition>readonly HttpClient UserHttpClient.client</definition>
+        <argsstring></argsstring>
+        <name>client</name>
+        <qualifiedname>UserHttpClient.client</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="12" column="33" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_user_http_client_1a37e2aedbb9dcda57893c4ec71f3cadb1" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>? string</type>
+        <definition>? string UserHttpClient.Jwt</definition>
+        <argsstring></argsstring>
+        <name>Jwt</name>
+        <qualifiedname>UserHttpClient.Jwt</qualifiedname>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="15" column="26" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_user_http_client_1a07aaf179aa80cfda1403d308f959a266" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Action&lt; ClaimsPrincipal &gt;</type>
+        <definition>Action&lt;ClaimsPrincipal&gt; UserHttpClient.OnAuthStateChanged</definition>
+        <argsstring></argsstring>
+        <name>OnAuthStateChanged</name>
+        <qualifiedname>UserHttpClient.OnAuthStateChanged</qualifiedname>
+        <reimplements refid="interface_i_user_service_1ae17e404d67b487e69aee3885cdddb19e">OnAuthStateChanged</reimplements>
+        <initializer>= null!</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="21" column="19" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_user_http_client_1afc094c09300a35e083727770a53dfc9f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UserHttpClient.UserHttpClient</definition>
+        <argsstring>(HttpClient client)</argsstring>
+        <name>UserHttpClient</name>
+        <qualifiedname>UserHttpClient.UserHttpClient</qualifiedname>
+        <param>
+          <type>HttpClient</type>
+          <declname>client</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="17" column="12" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_http_client_1a81ebd2482603f7720df12de26ab25b2e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task UserHttpClient.LoginAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>LoginAsync</name>
+        <qualifiedname>UserHttpClient.LoginAsync</qualifiedname>
+        <reimplements refid="interface_i_user_service_1a357f2d8740763c458f6726c320ca3995">LoginAsync</reimplements>
+        <param>
+          <type><ref refid="class_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="23" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="23" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_http_client_1a70545f5857e7551cc893338fa291e404" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task UserHttpClient.LogoutAsync</definition>
+        <argsstring>()</argsstring>
+        <name>LogoutAsync</name>
+        <qualifiedname>UserHttpClient.LogoutAsync</qualifiedname>
+        <reimplements refid="interface_i_user_service_1a2c92a19baa02fc631b49b47bbab0e511">LogoutAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="42" column="17" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="42" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_http_client_1a0c43641e856296078cda50be2e34a364" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task UserHttpClient.CreateAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>UserHttpClient.CreateAsync</qualifiedname>
+        <reimplements refid="interface_i_user_service_1add05308a2c3a343a7599cc4046d97afe">CreateAsync</reimplements>
+        <param>
+          <type><ref refid="class_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="50" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="50" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_http_client_1aef77edbad40f225cea7adfcc0c60a2ad" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Task&lt; ClaimsPrincipal &gt;</type>
+        <definition>Task&lt; ClaimsPrincipal &gt; UserHttpClient.GetAuthAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAuthAsync</name>
+        <qualifiedname>UserHttpClient.GetAuthAsync</qualifiedname>
+        <reimplements refid="interface_i_user_service_1a7d226b916fb6a48e2315211fa00bd5ce">GetAuthAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="63" column="17" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="63" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_user_http_client_1a7f1882a7f64ac48f4bcbc81b8822b3a6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; Claim &gt;</type>
+        <definition>static IEnumerable&lt; Claim &gt; UserHttpClient.ParseClaimsFromJwt</definition>
+        <argsstring>(string jwt)</argsstring>
+        <name>ParseClaimsFromJwt</name>
+        <qualifiedname>UserHttpClient.ParseClaimsFromJwt</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>jwt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="70" column="32" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="70" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_http_client_1ae677949e0af7d1eb756327555af2b203" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>byte[]</type>
+        <definition>static byte[] UserHttpClient.ParseBase64WithoutPadding</definition>
+        <argsstring>(string base64)</argsstring>
+        <name>ParseBase64WithoutPadding</name>
+        <qualifiedname>UserHttpClient.ParseBase64WithoutPadding</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>base64</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="78" column="25" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="78" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_user_http_client_1a7a61593d6e1cabb7e972bfbe2e79048f" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ClaimsPrincipal</type>
+        <definition>static ClaimsPrincipal UserHttpClient.CreateClaimsPrincipal</definition>
+        <argsstring>()</argsstring>
+        <name>CreateClaimsPrincipal</name>
+        <qualifiedname>UserHttpClient.CreateClaimsPrincipal</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="93" column="36" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="93" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IUserService</label>
+        <link refid="interface_i_user_service"/>
+      </node>
+      <node id="1">
+        <label>UserHttpClient</label>
+        <link refid="class_user_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IUserService</label>
+        <link refid="interface_i_user_service"/>
+      </node>
+      <node id="1">
+        <label>UserHttpClient</label>
+        <link refid="class_user_http_client"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" line="10" column="7" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/Implementations/UserHttpClient.cs" bodystart="11" bodyend="107"/>
+    <listofallmembers>
+      <member refid="class_user_http_client_1a6b8c9c17e5c51b84e5c7c97e5833e9d0" prot="private" virt="non-virtual"><scope>UserHttpClient</scope><name>client</name></member>
+      <member refid="class_user_http_client_1a0c43641e856296078cda50be2e34a364" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>CreateAsync</name></member>
+      <member refid="class_user_http_client_1a7a61593d6e1cabb7e972bfbe2e79048f" prot="private" virt="non-virtual"><scope>UserHttpClient</scope><name>CreateClaimsPrincipal</name></member>
+      <member refid="class_user_http_client_1aef77edbad40f225cea7adfcc0c60a2ad" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>GetAuthAsync</name></member>
+      <member refid="class_user_http_client_1a37e2aedbb9dcda57893c4ec71f3cadb1" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>Jwt</name></member>
+      <member refid="class_user_http_client_1a81ebd2482603f7720df12de26ab25b2e" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>LoginAsync</name></member>
+      <member refid="class_user_http_client_1a70545f5857e7551cc893338fa291e404" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>LogoutAsync</name></member>
+      <member refid="class_user_http_client_1a07aaf179aa80cfda1403d308f959a266" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>OnAuthStateChanged</name></member>
+      <member refid="class_user_http_client_1ae677949e0af7d1eb756327555af2b203" prot="private" virt="non-virtual"><scope>UserHttpClient</scope><name>ParseBase64WithoutPadding</name></member>
+      <member refid="class_user_http_client_1a7f1882a7f64ac48f4bcbc81b8822b3a6" prot="private" virt="non-virtual"><scope>UserHttpClient</scope><name>ParseClaimsFromJwt</name></member>
+      <member refid="class_user_http_client_1afc094c09300a35e083727770a53dfc9f" prot="public" virt="non-virtual"><scope>UserHttpClient</scope><name>UserHttpClient</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

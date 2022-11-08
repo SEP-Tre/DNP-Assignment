@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_posts_controller" kind="class" language="C#" prot="public">
+    <compoundname>PostsController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_posts_controller_1a54a88ff9c648186ab1d08573bbe62854" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_i_post_logic" kindref="compound">IPostLogic</ref></type>
+        <definition>readonly IPostLogic PostsController.postLogic</definition>
+        <argsstring></argsstring>
+        <name>postLogic</name>
+        <qualifiedname>PostsController.postLogic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" line="12" column="33" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_posts_controller_1ab90049167d3642b5b78b0649f440bbc8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>PostsController.PostsController</definition>
+        <argsstring>(IPostLogic postLogic)</argsstring>
+        <name>PostsController</name>
+        <qualifiedname>PostsController.PostsController</qualifiedname>
+        <param>
+          <type><ref refid="interface_i_post_logic" kindref="compound">IPostLogic</ref></type>
+          <declname>postLogic</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" line="14" column="12" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_posts_controller_1a2f523b56f2832fc45f907559637287ca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ActionResult&lt; Post &gt; &gt; PostsController.CreateAsync</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>PostsController.CreateAsync</qualifiedname>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" line="20" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" bodystart="20" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_posts_controller_1a2fa9c2d4537d7d48f41864e72f616e1d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ActionResult&lt; Post &gt; &gt; PostsController.GetByTitleAsync</definition>
+        <argsstring>([FromQuery] string title)</argsstring>
+        <name>GetByTitleAsync</name>
+        <qualifiedname>PostsController.GetByTitleAsync</qualifiedname>
+        <param>
+          <attributes>[FromQuery]</attributes>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" line="35" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" bodystart="35" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_posts_controller_1a99df814a34684b8be1d130ed26a7a3e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; IEnumerable&lt; string &gt; &gt; &gt;</type>
+        <definition>async Task&lt; ActionResult&lt; IEnumerable&lt; string &gt; &gt; &gt; PostsController.GetAllByTitleAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllByTitleAsync</name>
+        <qualifiedname>PostsController.GetAllByTitleAsync</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" line="51" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" bodystart="51" bodyend="63"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>PostsController</label>
+        <link refid="class_posts_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>PostsController</label>
+        <link refid="class_posts_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" line="10" column="7" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/PostsController.cs" bodystart="11" bodyend="64"/>
+    <listofallmembers>
+      <member refid="class_posts_controller_1a2f523b56f2832fc45f907559637287ca" prot="public" virt="non-virtual"><scope>PostsController</scope><name>CreateAsync</name></member>
+      <member refid="class_posts_controller_1a99df814a34684b8be1d130ed26a7a3e0" prot="public" virt="non-virtual"><scope>PostsController</scope><name>GetAllByTitleAsync</name></member>
+      <member refid="class_posts_controller_1a2fa9c2d4537d7d48f41864e72f616e1d" prot="public" virt="non-virtual"><scope>PostsController</scope><name>GetByTitleAsync</name></member>
+      <member refid="class_posts_controller_1a54a88ff9c648186ab1d08573bbe62854" prot="private" virt="non-virtual"><scope>PostsController</scope><name>postLogic</name></member>
+      <member refid="class_posts_controller_1ab90049167d3642b5b78b0649f440bbc8" prot="public" virt="non-virtual"><scope>PostsController</scope><name>PostsController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,171 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_users_controller" kind="class" language="C#" prot="public">
+    <compoundname>UsersController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_users_controller_1a00c1e0cf6cb4a38614c66327f8fd758d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_i_user_logic" kindref="compound">IUserLogic</ref></type>
+        <definition>readonly IUserLogic UsersController.userLogic</definition>
+        <argsstring></argsstring>
+        <name>userLogic</name>
+        <qualifiedname>UsersController.userLogic</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="18" column="33" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_users_controller_1a5a65acdb7ac7f3362c7261cfde4b1788" prot="private" static="no" mutable="no">
+        <type>readonly IConfiguration</type>
+        <definition>readonly IConfiguration UsersController.config</definition>
+        <argsstring></argsstring>
+        <name>config</name>
+        <qualifiedname>UsersController.config</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="19" column="37" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_users_controller_1a3a6321e10938e7cbe23855fd46080e85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>UsersController.UsersController</definition>
+        <argsstring>(IUserLogic userLogic, IConfiguration config)</argsstring>
+        <name>UsersController</name>
+        <qualifiedname>UsersController.UsersController</qualifiedname>
+        <param>
+          <type><ref refid="interface_i_user_logic" kindref="compound">IUserLogic</ref></type>
+          <declname>userLogic</declname>
+        </param>
+        <param>
+          <type>IConfiguration</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="22" column="12" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="22" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="class_users_controller_1a807ad6be3b6620ead741d65f57ad23ed" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="class_shared_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ActionResult&lt; User &gt; &gt; UsersController.CreateAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>UsersController.CreateAsync</qualifiedname>
+        <param>
+          <type><ref refid="class_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="63" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="63" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_users_controller_1a04f128c20bcecc2f786fe3894c0cf8f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; ActionResult&lt; <ref refid="class_shared_1_1_user" kindref="compound">User</ref> &gt; &gt;</type>
+        <definition>async Task&lt; ActionResult&lt; User &gt; &gt; UsersController.LoginAsync</definition>
+        <argsstring>(UserCreationDto dto)</argsstring>
+        <name>LoginAsync</name>
+        <qualifiedname>UsersController.LoginAsync</qualifiedname>
+        <param>
+          <type><ref refid="class_user_creation_dto" kindref="compound">UserCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="78" column="23" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="78" bodyend="91"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_users_controller_1acd582ee1e36c65b89d010b3a82714583" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; Claim &gt;</type>
+        <definition>List&lt; Claim &gt; UsersController.GenerateClaims</definition>
+        <argsstring>(User user)</argsstring>
+        <name>GenerateClaims</name>
+        <qualifiedname>UsersController.GenerateClaims</qualifiedname>
+        <param>
+          <type><ref refid="class_shared_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="28" column="18" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="28" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_users_controller_1aee706de4b955f1ff0800dea8a650c1dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string UsersController.GenerateJwt</definition>
+        <argsstring>(User user)</argsstring>
+        <name>GenerateJwt</name>
+        <qualifiedname>UsersController.GenerateJwt</qualifiedname>
+        <param>
+          <type><ref refid="class_shared_1_1_user" kindref="compound">User</ref></type>
+          <declname>user</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="40" column="20" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="40" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>UsersController</label>
+        <link refid="class_users_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>UsersController</label>
+        <link refid="class_users_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" line="16" column="7" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/WebAPI/Controllers/UsersController.cs" bodystart="17" bodyend="92"/>
+    <listofallmembers>
+      <member refid="class_users_controller_1a5a65acdb7ac7f3362c7261cfde4b1788" prot="private" virt="non-virtual"><scope>UsersController</scope><name>config</name></member>
+      <member refid="class_users_controller_1a807ad6be3b6620ead741d65f57ad23ed" prot="public" virt="non-virtual"><scope>UsersController</scope><name>CreateAsync</name></member>
+      <member refid="class_users_controller_1acd582ee1e36c65b89d010b3a82714583" prot="private" virt="non-virtual"><scope>UsersController</scope><name>GenerateClaims</name></member>
+      <member refid="class_users_controller_1aee706de4b955f1ff0800dea8a650c1dd" prot="private" virt="non-virtual"><scope>UsersController</scope><name>GenerateJwt</name></member>
+      <member refid="class_users_controller_1a04f128c20bcecc2f786fe3894c0cf8f8" prot="public" virt="non-virtual"><scope>UsersController</scope><name>LoginAsync</name></member>
+      <member refid="class_users_controller_1a00c1e0cf6cb4a38614c66327f8fd758d" prot="private" virt="non-virtual"><scope>UsersController</scope><name>userLogic</name></member>
+      <member refid="class_users_controller_1a3a6321e10938e7cbe23855fd46080e85" prot="public" virt="non-virtual"><scope>UsersController</scope><name>UsersController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

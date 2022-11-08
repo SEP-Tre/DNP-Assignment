@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="interface_i_post_logic" kind="interface" language="C#" prot="public">
+    <compoundname>IPostLogic</compoundname>
+    <derivedcompoundref refid="class_post_logic" prot="public" virt="non-virtual">PostLogic</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_i_post_logic_1ae27ed6029a345fc2fb419276a3bcb77a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; IPostLogic.CreateAsync</definition>
+        <argsstring>(PostCreationDto dto)</argsstring>
+        <name>CreateAsync</name>
+        <qualifiedname>IPostLogic.CreateAsync</qualifiedname>
+        <reimplementedby refid="class_post_logic_1adf2d81f1d95643132a81e401723c2fc2">CreateAsync</reimplementedby>
+        <param>
+          <type><ref refid="class_post_creation_dto" kindref="compound">PostCreationDto</ref></type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IPostLogic.cs" line="8" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_post_logic_1a653a2ed948d74c95330e84663180f9b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>Task&lt; Post &gt; IPostLogic.GetByTitleAsync</definition>
+        <argsstring>(string title)</argsstring>
+        <name>GetByTitleAsync</name>
+        <qualifiedname>IPostLogic.GetByTitleAsync</qualifiedname>
+        <reimplementedby refid="class_post_logic_1acc5076394dda4492640452891ea8fd39">GetByTitleAsync</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>title</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IPostLogic.cs" line="9" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_i_post_logic_1a490cad066a319b4107b503f7f0cbbe10" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task&lt; IEnumerable&lt; string &gt; &gt;</type>
+        <definition>Task&lt; IEnumerable&lt; string &gt; &gt; IPostLogic.GetAllTitlesAsync</definition>
+        <argsstring>()</argsstring>
+        <name>GetAllTitlesAsync</name>
+        <qualifiedname>IPostLogic.GetAllTitlesAsync</qualifiedname>
+        <reimplementedby refid="class_post_logic_1ae41586039ccba690b50477299cfb45c3">GetAllTitlesAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IPostLogic.cs" line="11" column="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>IPostLogic</label>
+        <link refid="interface_i_post_logic"/>
+      </node>
+      <node id="2">
+        <label>PostLogic</label>
+        <link refid="class_post_logic"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IPostLogic.cs" line="6" column="18" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Application/LogicInterfaces/IPostLogic.cs" bodystart="7" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_i_post_logic_1ae27ed6029a345fc2fb419276a3bcb77a" prot="public" virt="non-virtual"><scope>IPostLogic</scope><name>CreateAsync</name></member>
+      <member refid="interface_i_post_logic_1a490cad066a319b4107b503f7f0cbbe10" prot="public" virt="non-virtual"><scope>IPostLogic</scope><name>GetAllTitlesAsync</name></member>
+      <member refid="interface_i_post_logic_1a653a2ed948d74c95330e84663180f9b4" prot="public" virt="non-virtual"><scope>IPostLogic</scope><name>GetByTitleAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

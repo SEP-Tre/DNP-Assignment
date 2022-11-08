@@ -21,10 +21,10 @@
     </div>
     <div class="d-flex justify-content-around">
         <div class="button-row">
-            <button @onclick=@(Login) disabled="@string.IsNullOrEmpty(username)" class="acceptbtn">Login</button>
+            <button @onclick=@(LoginAsync) disabled="@string.IsNullOrEmpty(username)" class="acceptbtn">Login</button>
         </div>
         <div class="button-row">
-            <button @onclick=@(() => Register()) disabled="@string.IsNullOrEmpty(username)" class="acceptbtn">Register</button>
+            <button @onclick=@(() => RegisterAsync()) disabled="@string.IsNullOrEmpty(username)" class="acceptbtn">Register</button>
         </div>
     </div>
     @if (!string.IsNullOrEmpty(resultMsg))
@@ -43,11 +43,11 @@
 
 
 @code {
-    private string username = "";
-    private string password = "";
-    private string resultMsg = "";
-    private string color = "red";
-    private UserCreationDto dto = new UserCreationDto();
+    private string username;
+    private string password;
+    private string resultMsg;
+    private string color;
+    private UserCreationDto dto;
     private bool showModalLogin;
     private bool showModalReg;
     //TODO: The code after await is not executed or not reflected in the UI. After another click it works.
@@ -61,7 +61,7 @@
         dto = new UserCreationDto();
     }
 
-    private async void Login()
+    private async Task LoginAsync()
     {
         try
         {
@@ -78,12 +78,15 @@
         }
     }
 
-    private async void Register()
+    private async Task RegisterAsync()
     {
         try
         {
             await userService.CreateAsync(new UserCreationDto(username, password));
-            resultMsg = "Your account have been successfully created.";
+            showModalReg = true;
+            username = "";
+            password = "";
+            resultMsg = "";
         }
         catch (Exception e)
         {
@@ -99,7 +102,6 @@
     private void ProceedReg()
     {
         showModalReg = false;
-        navMgr.NavigateTo("/");
     }
 
 }

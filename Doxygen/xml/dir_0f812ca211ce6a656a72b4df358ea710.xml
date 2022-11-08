@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_0f812ca211ce6a656a72b4df358ea710" kind="dir">
+    <compoundname>C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/ClientInterfaces</compoundname>
+    <innerfile refid="_i_post_service_8cs">IPostService.cs</innerfile>
+    <innerfile refid="_i_user_service_8cs">IUserService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/HttpClients/ClientInterfaces/"/>
+  </compounddef>
+</doxygen>

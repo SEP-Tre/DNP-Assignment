@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_file_data_1_1_file_context" kind="class" language="C#" prot="public">
+    <compoundname>FileData::FileContext</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_file_data_1_1_file_context_1ad94ece3417c7a47bafbd256b313372b4" prot="private" static="yes" mutable="no">
+        <type>const string</type>
+        <definition>const string FileData.FileContext.filePath</definition>
+        <argsstring></argsstring>
+        <name>filePath</name>
+        <qualifiedname>FileData.FileContext.filePath</qualifiedname>
+        <initializer>= &quot;data.json&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="8" column="26" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_file_data_1_1_file_context_1a27792f4ac237693dd9dfeba43b0f4846" prot="private" static="no" mutable="no">
+        <type><ref refid="class_file_data_1_1_data_container" kindref="compound">DataContainer</ref>?</type>
+        <definition>DataContainer? FileData.FileContext.dataContainer</definition>
+        <argsstring></argsstring>
+        <name>dataContainer</name>
+        <qualifiedname>FileData.FileContext.dataContainer</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="9" column="27" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_file_data_1_1_file_context_1ac82a4497abc65e7f5baf7057bb467b59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_shared_1_1_post" kindref="compound">Post</ref> &gt;</type>
+        <definition>ICollection&lt;Post&gt; FileData.FileContext.Posts</definition>
+        <argsstring></argsstring>
+        <name>Posts</name>
+        <qualifiedname>FileData.FileContext.Posts</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="11" column="24" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="12" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_file_data_1_1_file_context_1ac1aaa7d16cc170aa95a1d3b7d9ff0941" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_shared_1_1_user" kindref="compound">User</ref> &gt;</type>
+        <definition>ICollection&lt;User&gt; FileData.FileContext.Users</definition>
+        <argsstring></argsstring>
+        <name>Users</name>
+        <qualifiedname>FileData.FileContext.Users</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="20" column="24" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="21" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_file_data_1_1_file_context_1a40df36388de1a8c33c1adf406476a524" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileData.FileContext.LoadData</definition>
+        <argsstring>()</argsstring>
+        <name>LoadData</name>
+        <qualifiedname>FileData.FileContext.LoadData</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="30" column="18" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="30" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_file_data_1_1_file_context_1ad1d94fa4996c44109f6883a8923eed35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void FileData.FileContext.SaveChanges</definition>
+        <argsstring>()</argsstring>
+        <name>SaveChanges</name>
+        <qualifiedname>FileData.FileContext.SaveChanges</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="47" column="17" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" line="6" column="7" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/FileData/FileContext.cs" bodystart="7" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_file_data_1_1_file_context_1a27792f4ac237693dd9dfeba43b0f4846" prot="private" virt="non-virtual"><scope>FileData::FileContext</scope><name>dataContainer</name></member>
+      <member refid="class_file_data_1_1_file_context_1ad94ece3417c7a47bafbd256b313372b4" prot="private" virt="non-virtual"><scope>FileData::FileContext</scope><name>filePath</name></member>
+      <member refid="class_file_data_1_1_file_context_1a40df36388de1a8c33c1adf406476a524" prot="private" virt="non-virtual"><scope>FileData::FileContext</scope><name>LoadData</name></member>
+      <member refid="class_file_data_1_1_file_context_1ac82a4497abc65e7f5baf7057bb467b59" prot="public" virt="non-virtual"><scope>FileData::FileContext</scope><name>Posts</name></member>
+      <member refid="class_file_data_1_1_file_context_1ad1d94fa4996c44109f6883a8923eed35" prot="public" virt="non-virtual"><scope>FileData::FileContext</scope><name>SaveChanges</name></member>
+      <member refid="class_file_data_1_1_file_context_1ac1aaa7d16cc170aa95a1d3b7d9ff0941" prot="public" virt="non-virtual"><scope>FileData::FileContext</scope><name>Users</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

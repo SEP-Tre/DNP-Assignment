@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_authorization_policies" kind="class" language="C#" prot="public">
+    <compoundname>AuthorizationPolicies</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_authorization_policies_1a7bca207ee8a7e9b61f91a0df2406cee9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void AuthorizationPolicies.AddPolicies</definition>
+        <argsstring>(IServiceCollection services)</argsstring>
+        <name>AddPolicies</name>
+        <qualifiedname>AuthorizationPolicies.AddPolicies</qualifiedname>
+        <param>
+          <type>IServiceCollection</type>
+          <declname>services</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/Auth/AuthorizationPolicies.cs" line="7" column="24" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/Auth/AuthorizationPolicies.cs" bodystart="7" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/Auth/AuthorizationPolicies.cs" line="5" column="15" bodyfile="C:/Users/fisch/Documents/GitHub/DNP-Assignment/ForumDNP/Shared/Auth/AuthorizationPolicies.cs" bodystart="6" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_authorization_policies_1a7bca207ee8a7e9b61f91a0df2406cee9" prot="public" virt="non-virtual"><scope>AuthorizationPolicies</scope><name>AddPolicies</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
