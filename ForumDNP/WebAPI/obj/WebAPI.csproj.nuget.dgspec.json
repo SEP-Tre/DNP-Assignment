@@ -61,14 +61,14 @@
         }
       }
     },
-    "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\FileData\\FileData.csproj": {
+    "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\EfcDataAccess\\EfcDataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\FileData\\FileData.csproj",
-        "projectName": "FileData",
-        "projectPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\FileData\\FileData.csproj",
+        "projectUniqueName": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\EfcDataAccess\\EfcDataAccess.csproj",
+        "projectName": "EfcDataAccess",
+        "projectPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\EfcDataAccess\\EfcDataAccess.csproj",
         "packagesPath": "C:\\Users\\fisch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\FileData\\obj\\",
+        "outputPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\EfcDataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fisch\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -98,6 +98,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -202,8 +218,8 @@
               "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\Application\\Application.csproj": {
                 "projectPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\Application\\Application.csproj"
               },
-              "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\FileData\\FileData.csproj": {
-                "projectPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\FileData\\FileData.csproj"
+              "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\EfcDataAccess\\EfcDataAccess.csproj": {
+                "projectPath": "C:\\Users\\fisch\\Documents\\GitHub\\DNP-Assignment\\ForumDNP\\EfcDataAccess\\EfcDataAccess.csproj"
               }
             }
           }

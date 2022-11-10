@@ -14,6 +14,16 @@
       "Id": 3,
       "UserName": "Kamilus",
       "Password": "12345678"
+    },
+    {
+      "Id": 4,
+      "UserName": "Kamilanus",
+      "Password": "12345678"
+    },
+    {
+      "Id": 5,
+      "UserName": "Kamilusus",
+      "Password": "12345678"
     }
   ],
   "Posts": [
@@ -27,6 +37,39 @@
       "Title": "DNP question",
       "Body": "Can some explain asynchronous programming to me? Can some explain asynchronous programming to me? Can some explain asynchronous programming to me?",
       "DateTime": "2022-11-08T17:11:11.5620742+01:00"
+    },
+    {
+      "Id": 2,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Kamilek",
+        "Password": "12345678"
+      },
+      "Title": "The nerve!",
+      "Body": "Guys I have this weird nerve ending. Guys I have this weird nerve ending. Guys I have this weird nerve ending.",
+      "DateTime": "2022-11-09T10:30:05.3410484+01:00"
+    },
+    {
+      "Id": 3,
+      "Owner": {
+        "Id": 2,
+        "UserName": "Kamilek",
+        "Password": "12345678"
+      },
+      "Title": "Superstore?",
+      "Body": "More like a super show! I just fell in love with the characters and the plot. I am truly unhappy that I am going towards the end of the series. More like a super show! I just fell in love with the characters and the plot. I am truly unhappy that I am going towards the end of the series.",
+      "DateTime": "2022-11-09T10:31:14.6380981+01:00"
+    },
+    {
+      "Id": 4,
+      "Owner": {
+        "Id": 5,
+        "UserName": "Kamilusus",
+        "Password": "12345678"
+      },
+      "Title": "DNP show foo take 10",
+      "Body": "DNP show off take 8 DNP show off take 8 DNP show off take 8 DNP show off take 8 DNP show off take 8 DNP show off take 8 DNP show off take 8 DNP show off take 8",
+      "DateTime": "2022-11-09T11:04:59.281837+01:00"
     }
   ]
 }
