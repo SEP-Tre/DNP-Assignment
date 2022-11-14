@@ -24,7 +24,7 @@ public class PostEfcDao : IPostDao
 
     public async Task<Post?> GetByTitleAsync(string title)
     {
-        IQueryable<Post> postsQuery = context.Posts.AsQueryable();
+        IQueryable<Post> postsQuery = context.Posts.Include(post => post.Owner).AsQueryable();
         if (!string.IsNullOrEmpty(title))
         {
             postsQuery = postsQuery.Where(p => p.Title.ToLower().Equals(title.ToLower()));
