@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['_2enetcoreapp_2cversion_3dv6_2e0_2eassemblyattributes_2ecs_0',['.NETCoreApp,Version=v6.0.AssemblyAttributes.cs',['../_application_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_blazor_w_a_s_m_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_file_data_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_http_clients_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_shared_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)'],['../_web_a_p_i_2obj_2_debug_2net6_80_2_8_n_e_t_core_app_00_version_0av6_80_8_assembly_attributes_8cs.html',1,'(Global Namespace)']]]
-];
